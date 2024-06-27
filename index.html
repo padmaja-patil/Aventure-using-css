@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- /navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"> <a href="#"> Home</a>  </li>
+            <li> <a href="#"> Toures</a>  </li>
+            <li> <a href="#"> Explore</a>  </li>
+            <li> <a href="#"> About</a>  </li>
+            <li class="ctn"> <a href="#"> Contact</a>  </li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="menu-btn" class="menu-btn">
+        </nav>   
+     <header>
+        <div class="header-content">
+            <h2>Explore the colourful World</h2>
+            <div class="line">   </div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>         
+        </div>
+    </header>
+    <!-- evente -->
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="img1" >
+                <h4>Everest camp trek</h4>
+                <p>Bachendri pal is the firs indian women who climbed the mount Everest.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+       
+            <div class="col">
+                <img src="./img/img2.png" alt="img2" >
+                <h4>Walking Holidays</h4>
+                <p>Bachendri pal is the firs indian women who climbed the mount Everest. </p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- /Explore -->
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>We need to go out and explore  the world if we explore the world then only we ge the  knowledge .as there is a thought the one who rom around the country and see the world read the books then get knowledge</p>
+        <a href="#" class="ctn">LEARN MORE</a>
+    </div>
+    
+    </section>
+    <!-- upcoming -->
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>ON the summers of 2024 we are arranging grate opporunities with Family package, Student packages and Solo packages to come and conact us for registrattion and if you have any query just contact to the contact page of oura lets have a grate time with our tour explore Advnture group god bless you take care see you soon till then bye bye</p>
+                <a href="#" class="ctn"> Learn more</a>         
+            </div>
+             <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img3.png" alt="img3" >
+                    <img src="./img/img4.png" alt="img4">
+
+                    <img src="./img/img5.png" alt="img5">
+                    <img src="./img/img6.png" alt="img6">
+                </div>
+             </div>
+
+        </div>
+    </section>
+    <section class="footer">
+        <p>Near RC NAGAR ,FIRST STAGE BELAGAVI,KARNATAKA,INDIA</p>
+        <p>Copyright @2024 oudoor Adventure</p>
+    </section>
+     
+    <script>
+         const menuBtn =document.querySelector('.menu-btn')
+         const navlinks = document.querySelector('.nav-links')
+         
+         menuBtn.addEventListener('click',() => {
+            navlinks.classList.toggle('mobile-menu')})
+        
+    </script>
+</body>
+</html>
